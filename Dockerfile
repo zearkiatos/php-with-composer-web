@@ -1,5 +1,5 @@
 
-FROM php:7.4-cli
+FROM php:8-cli
 
 RUN apt-get update && \
 yes | apt-get install wget
