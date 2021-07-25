@@ -1,17 +1,24 @@
 {
-    "name": "pcapriles/text",
+    "name": "caprilespe/php-with-composer-web",
+    "description": "Example composer",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Text\\": "src/"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+            "Caprilespe\\PhpWithComposerWeb\\": "src/"
+        }
     },
+    "authors": [
+        {
+            "name": "Pedro Capriles",
+            "email": "caprilespe@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require-dev": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "10.0.x-dev"
     },
     "require": {
-        "nesbot/carbon": "^2.50"
+        "nesbot/carbon": "3.x-dev"
     }
 }
