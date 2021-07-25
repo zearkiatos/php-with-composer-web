@@ -33,6 +33,6 @@ jobs:
     - name: Install and config Symfony 🎼
       run: |
         wget https://get.symfony.com/cli/installer -O - | bash &&
-        symfony server:ca:install
+        /root/.symfony/bin/symfony server:ca:install
     - name: Install dependencies
       run: composer install
