@@ -23,10 +23,6 @@ jobs:
       with:
         token: ${{ secrets.github_token }}
         prefix: client
-    - name: Update
-      run: |
-       apt-get update &&
-       yes | apt-get install wget
     - name: Install PHP and Composer 🧑🏽‍💼🎶
       run: |
         php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
