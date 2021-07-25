@@ -13,10 +13,11 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Set up PHP ${{ matrix.php-version }}
-      uses: actions/setup-php@v1
+    - name: Setup PHP with PECL extension
+      uses: shivammathur/setup-php@v2
       with:
         php-version: ${{ matrix.php-version }}
+        extensions: imagick, swoole
     - name: Generate build number
       uses: einaregilsson/build-number@v3
       with:
