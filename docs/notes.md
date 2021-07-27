@@ -10,3 +10,19 @@
 
 ## Init Project
 `composer init`
+
+## Autoload example
+
+`    "autoload": {
+         "files": [
+             "src/file1.php",
+             "src/file2.php"
+         ],
+         "classmap": [
+             "database/seeds",
+             "database/factories"
+         ],
+        "psr-4": {
+            "Caprilespe\\PhpWithComposerWeb\\": "src/"
+        }
+    }`
