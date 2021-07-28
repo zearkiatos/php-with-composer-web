@@ -11,7 +11,7 @@ before_script:
     - apk add wget
     - apk add nginx
     - apk add php8-cli
-    - apk add php8 php8-fpm php8-opcache
+    - apk add php php8-fpm php8-opcache
     - apk add php8-openssl php8-json php8-phar php8-iconv php8-mbstring
     - cd /usr/local/bin
     - ls -la
