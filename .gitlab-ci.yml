@@ -13,8 +13,7 @@ before_script:
     - apk add php8-cli
     - apk add php php8-fpm php8-opcache
     - apk add php8-openssl php8-json php8-phar php8-iconv php8-mbstring
-    - cd /usr/local/bin
-    - ls -la
+    - find / -name php -type f
     - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
     - HASH="$(wget -q -O - https://composer.github.io/installer.sig)"
     - php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
