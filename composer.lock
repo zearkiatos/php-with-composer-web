@@ -338,12 +338,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "9338547c7777216541f2842b6bb967ff781cad45"
+                "reference": "6cbb2e712c1fc31a646305a2c28964970ff66596"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/9338547c7777216541f2842b6bb967ff781cad45",
-                "reference": "9338547c7777216541f2842b6bb967ff781cad45",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/6cbb2e712c1fc31a646305a2c28964970ff66596",
+                "reference": "6cbb2e712c1fc31a646305a2c28964970ff66596",
                 "shasum": ""
             },
             "require": {
@@ -426,7 +426,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-25T15:20:47+00:00"
+            "time": "2021-07-27T17:15:07+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -1134,12 +1134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1c9246e99b8807f2196e5ac130c7570e5d98c11e"
+                "reference": "22d414596cdee3acd502d306156613a33bb6bd1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1c9246e99b8807f2196e5ac130c7570e5d98c11e",
-                "reference": "1c9246e99b8807f2196e5ac130c7570e5d98c11e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/22d414596cdee3acd502d306156613a33bb6bd1a",
+                "reference": "22d414596cdee3acd502d306156613a33bb6bd1a",
                 "shasum": ""
             },
             "require": {
@@ -1226,7 +1226,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-25T08:56:55+00:00"
+            "time": "2021-07-27T16:16:40+00:00"
         },
         {
             "name": "sebastian/cli-parser",
