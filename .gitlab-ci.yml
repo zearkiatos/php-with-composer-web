@@ -11,7 +11,7 @@ before_script:
     - apk add wget
     - apk add nginx
     - apk add php-cli
-    - apk add php php-fpm php-opcache php-xml
+    - apk add php php-fpm php-opcache php-xml php7.4-xml
     - apk add php-openssl php-json php-phar php-iconv php-mbstring
     - find / -name php -type f
     - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
