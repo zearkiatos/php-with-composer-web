@@ -37,7 +37,7 @@ jobs:
         symfony server:ca:install
     - name: Install dependencies
       run: |
-      composer dump
-      composer install
+        composer dump
+        composer install
     - name: Build docker 🐳
       run: docker build . -t=php-with-composer-web
