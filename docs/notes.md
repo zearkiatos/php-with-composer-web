@@ -26,3 +26,6 @@
             "Caprilespe\\PhpWithComposerWeb\\": "src/"
         }
     }`
+
+## Update composer tool
+`composer self-update`

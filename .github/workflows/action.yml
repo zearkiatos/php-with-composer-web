@@ -36,6 +36,8 @@ jobs:
         export PATH="$HOME/.symfony/bin:$PATH" &&
         symfony server:ca:install
     - name: Install dependencies
-      run: composer install
+      run: |
+        composer dump
+        composer install
     - name: Build docker 🐳
       run: docker build . -t=php-with-composer-web
