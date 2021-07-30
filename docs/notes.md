@@ -29,3 +29,6 @@
 
 ## Update composer tool
 `composer self-update`
+
+## Platzi Challengers
+`https://platzi.com/blog/como-aprender-a-programar/`

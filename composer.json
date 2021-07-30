@@ -6,7 +6,11 @@
     "autoload": {
         "psr-4": {
             "Caprilespe\\PhpWithComposerWeb\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ],
+        "classmap": ["src/"]
     },
     "authors": [
         {
