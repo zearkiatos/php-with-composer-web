@@ -1,0 +1,27 @@
+{
+    "name": "caprilespe/php-with-composer-web",
+    "description": "Example composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Caprilespe\\PhpWithComposerWeb\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ],
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "Pedro Capriles",
+            "email": "caprilespe@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "9.5.7"
+    },
+    "require": {
+        "nesbot/carbon": "2.50.0"
+    }
+}

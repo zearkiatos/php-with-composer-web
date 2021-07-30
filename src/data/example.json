@@ -1,0 +1,15 @@
+{
+    "name": "platzi",
+    "description": "Online Institute",
+    "courses": {
+        "advaned": [
+            "PHP",
+            "VueJS"
+        ],
+        "basic": [
+            "JSON",
+            "HTML"
+        ]
+    },
+    "example": false
+}
